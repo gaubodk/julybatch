@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>psuedo element</title>
+    <style> 
+    #para::first-line{
+        color: greenyellow;
+    }
+    #para::first-letter{
+
+        color: fuchsia;
+        font-size: medium;
+    }
+    #para2::before{
+        content: 5555;
+    }
+    #para2::after{
+        content: 7777;
+    }
+    ul li::marker{
+        color: darksalmon;
+        font-size: 40px;
+    }
+    p::selection{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <P id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, ipsum quisquam obcaecati consequuntur quaerat ipsam eaque! Ea assumenda minus dicta animi odio officiis architecto, explicabo illo praesentium, qui necessitatibus odit.lorem</P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laboriosam corporis dolorum deleniti ipsam ea consectetur vitae itaque, sequi blanditiis quibusdam laborum voluptatum non iste provident omnis porro in reprehenderit!</body>
+<P id="para2">this is paragraph</P>
+<Ol>
+    <LI>one</LI>
+    <LI>two</LI>
+    <LI>three</LI>
+    <LI>four</LI>
+</Ol>
+<ul>
+    <LI>one</LI>
+    <LI>two</LI>
+    <LI>three</LI>
+</ul>
+</body>
+</html>

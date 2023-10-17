@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute selector</title>
+    <style>
+        a[target]{
+    color: darkorange;
+}
+p[class="check"]{
+    color: lawngreen;
+}
+p[class="check"]{
+    color: lawngreen;
+}
+p[class~="sample"]{
+    color: rgb(14, 193, 238);
+}
+p[class="lorem"]{
+    border: 5px;
+    color: lawngreen;
+}
+p[title^='panda']{
+    background-color: aqua;
+}
+p[title^=' ha']{
+    background-color: rgb(248, 48, 12);
+    font-size: 30px;
+    border: 5px sandybrown
+}
+        
+    </style>
+</head>
+<body>
+    <a href="">sample1</a>
+    <a href="" target="_self">sample2</a>
+     <a href="" target="_blank">sample3</a>
+      <a href="" target="_blank">sample4</a>
+    <p class="check sample1" title="panda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta maxime doloribus sint facere, molestiae et excepturi qui nam inventore sit blanditiis laborum, reprehenderit eius dolores ut natus iste soluta rem.</p>
+    <P class="check sample" title="pandda-happy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet voluptates vero, soluta voluptatem excepturi voluptatum animi nemo laboriosam, commodi voluptate aliquid eligendi consequatur sapiente dignissimos ab fuga odio! Suscipit?</P>
+
+<P class="lorem" title=" happy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis consequuntur officiis excepturi ab commodi quisquam magni id, itaque omnis odio labore rerum sapiente eveniet vero facere ipsa. Vitae, commodi eveniet.</P>
+<P>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores magni cumque placeat, et deserunt ipsum? Doloremque asperiores quia cumque commodi sunt labore. Qui aliquam facilis blanditiis ullam deleniti cumque ducimus!
+</P></body>
+</html>

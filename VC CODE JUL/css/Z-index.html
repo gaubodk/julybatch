@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-inde</title>
+    <style>
+        .container{
+            position: relative;
+
+        }
+        .one{
+            position: relative;
+            z-index: 1;
+            border: 1px saddlebrown;
+            background-color: blue;
+            height: 100px;
+            margin: 30px;
+        }
+        .two{
+            position: absolute;
+            z-index: 2;
+            background-color: chocolate;
+            height: 60px;
+            width: 50%;
+            left: 50px;
+            top: 50px;
+
+        }
+        .three{
+            position: absolute;
+            z-index: 3;
+            background-color: rgb(8, 243, 59);
+            height: 100px;
+            width: 70%;
+            left: 80px;
+            top: 70px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="one">ONE</div>
+    <div class="two">TWO</div>
+    <div class="three">THREE</div>
+</body>
+</html>
